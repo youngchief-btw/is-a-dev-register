@@ -1,11 +1,12 @@
 {
-  "description": "Omar Márquez minimalist portfolio",
-  "repo": "https://github.com/Trkiller02/minimalist-portfolio",
-  "owner": {
-    "username": "Trkiller02",
-    "email": "trollkiller0207@gmail.com"
-  },
-  "records": {
-    "CNAME": "trkiller02.github.io"
+    "owner": {
+      "username": "Trkiller02",
+      "email": "trollkiller0207@gmail.com"
+    },
+   "records": {
+        "CNAME": "cname.vercel-dns.com"
+    },
+    "services": {
+        "vercel": "vc-domain-verify=omarmarquez.is-a.dev,f52bed4996ab7d902c69"
+    }
   }
-}
