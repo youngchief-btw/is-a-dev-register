@@ -4,6 +4,6 @@
     "email": "itxtahseen@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=q.is-a.dev,8798cf095e1f783b5302"]
+    "TXT": "vc-domain-verify=q.is-a.dev,8798cf095e1f783b5302"
   }
 }
