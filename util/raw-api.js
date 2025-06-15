@@ -83,25 +83,38 @@ fs.readdir(directoryPath, function (err, files) {
 
             delete item.owner.email;
 
-            const itemV1 = {
+            let itemV1 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
                 owner: item.owner,
                 record: item.records
             };
 
-            const itemV2 = {
+            let itemV2 = {
                 domain: item.domain,
                 subdomain: item.subdomain,
                 owner: item.owner,
                 records: item.records
             };
 
+            if (item.redirect_config) {
+                itemV1.redirect_config = item.redirect_config;
+                itemV2.redirect_config = item.redirect_config;
+            }
+
+            if (item.proxied) {
+                itemV1.proxied = item.proxied;
+                itemV2.proxied = item.proxied;
+            }
+
             v1.push(itemV1);
             v2.push(itemV2);
 
             processedCount++;
             if (processedCount === files.length) {
+                v1.sort((a, b) => a.domain.localeCompare(b.subdomain));
+                v2.sort((a, b) => a.domain.localeCompare(b.subdomain));
+
                 fs.writeFile("raw-api/index.json", JSON.stringify(v1), (err) => {
                     if (err) throw err;
                 });

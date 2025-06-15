@@ -3,6 +3,6 @@
     "username": "leofelix908"
   },
   "records": {
-    "TXT": ["vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"]
+    "TXT": "vc-domain-verify=v.is-a.dev,9bd0999222ffc1417790"
   }
 }

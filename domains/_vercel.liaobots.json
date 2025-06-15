@@ -1,9 +1,9 @@
 {
   "owner": {
     "username": "EducatedSuddenBucket",
-    "discord": "1167825360151380032"
+    "email": "educatedsuddenbucket@gmail.com"
   },
   "records": {
-    "TXT": ["vc-domain-verify=liaobots.is-a.dev,8571d70b82b73973b70d"]
+    "TXT": "vc-domain-verify=liaobots.is-a.dev,8571d70b82b73973b70d"
   }
 }
