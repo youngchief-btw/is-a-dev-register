@@ -1,12 +1,10 @@
 {
-  "description": "backup domain for my url shortener",
-  "repo": "https://github.com/NotNalin/url-shortener",
   "owner": {
-    "username": "NotNalin",
-    "email": "notnalin@protonmail.com",
-    "discord": "trickygamer"
+    "username": "itxcopilot99",
+    "telegram": "xwvux",
+    "email": "itxtahseen@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "CNAME": "xproject-xi.vercel.app"
   }
 }
