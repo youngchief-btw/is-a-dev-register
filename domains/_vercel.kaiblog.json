@@ -4,6 +4,6 @@
     "email": "kaigithub0621@gmail.com"
   },
   "records": {
-    "CNAME": "cname.vercel-dns.com"
+    "TXT": "vc-domain-verify=kaiblog.is-a.dev,2729eed11c2ba58be763"
   }
 }
